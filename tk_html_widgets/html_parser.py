@@ -431,7 +431,7 @@ class HTMLTextParser(HTMLParser):
         attrs = self._parse_attrs(attrs)
 
         if tag in HTML.STYLE_TAGS:
-
+            #---------------------------------------------------------------------- [ STYLED_TAGS ]
             self._parse_styles(tag, attrs)
 
             if tag == HTML.Tag.B or tag == HTML.Tag.STRONG or tag in HTML.HEADING_TAGS:
@@ -444,6 +444,7 @@ class HTMLTextParser(HTMLParser):
                 self._stack_add(tag, Bind.LINK, attrs[HTML.Attrs.HREF])
 
             elif tag == HTML.Tag.OL:
+                #---------------------------------------------------------------- [ ORDERED_LISTS ]
                 if attrs[HTML.Attrs.TYPE] and attrs[HTML.Attrs.TYPE] in HTML.TypeOrderedList.__dict__.values():
                     list_type = attrs[HTML.Attrs.TYPE]
                 else:
@@ -457,6 +458,7 @@ class HTMLTextParser(HTMLParser):
                 self._stack_add(tag, WCfg.TABS, tabs)
 
             elif tag == HTML.Tag.UL:
+                #-------------------------------------------------------------- [ UNORDERED_LISTS ]
                 self.list_tags.append(ListTag(ordered=False))
 
                 tabs = []
@@ -466,6 +468,7 @@ class HTMLTextParser(HTMLParser):
                 self._stack_add(tag, WCfg.TABS, tabs)
 
             elif tag == HTML.Tag.LI:
+                #------------------------------------------------------------------ [ LISTS_LINES ]
                 level = len(self.list_tags)
                 if level:
                     self.list_tags[-1].add()
@@ -487,6 +490,7 @@ class HTMLTextParser(HTMLParser):
                     self._stack_pop(tag, Fnt.OVERSTRIKE)
 
         elif tag == HTML.Tag.IMG and attrs[HTML.Attrs.SRC]:
+            #-------------------------------------------------------------------- [ UNSTYLED_TAGS ]
             image = None
             if attrs[HTML.Attrs.SRC] in self.cached_images.keys():
                 image = deepcopy(self.cached_images[attrs[HTML.Attrs.SRC]])
@@ -509,6 +513,7 @@ class HTMLTextParser(HTMLParser):
                 self._w.image_create(tk.INSERT, image=self.images[-1]) 
 
         if self.strip:
+            #------------------------------------------------------------------------ [ NEW_LINES ]
             if tag == HTML.Tag.BR:
                 self._insert_new_line()
             else:
