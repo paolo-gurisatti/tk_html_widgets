@@ -23,7 +23,7 @@ text = HTMLLabel(root)
 text.pack(fill="both", expand=True)
 text.set_html('<h1 style="color: red; text-align: center"> Hello World </H1>')
 text.fit_height()
-root.mainloop()``
+root.mainloop()
 ```
 
 ## Documentation
@@ -83,17 +83,17 @@ In order to check the appearance of the HTML text displayed by the tk_html_widge
 See details and templates HTML code in the [examples folder](https://github.com/paolo-gurisatti/tk_html_widgets/tree/master/examples).
 
 ### Tags template comparison:
-**Firefox** | **tk_html_widgets.HTMLText()** | **PyQt5.QtWidgets.QTextBrowser** 
+**Firefox** | **tk_html_widgets.HTMLText** | **PyQt5.QtWidgets.QTextBrowser** 
 --- | --- | ---
 ![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/tags_firefox.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/tags_tk.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/tags_pyqt5.png)
 
 ### Styles template comparison:
-**Firefox** | **tk_html_widgets.HTMLText()** | **PyQt5.QtWidgets.QTextBrowser** 
+**Firefox** | **tk_html_widgets.HTMLText** | **PyQt5.QtWidgets.QTextBrowser** 
 --- | --- | ---
 ![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/styles_firefox.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/styles_tk.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/styles_pyqt5.png)
 
 ### Images template comparison:
-**Firefox** | **tk_html_widgets.HTMLText()** | **PyQt5.QtWidgets.QTextBrowser** 
+**Firefox** | **tk_html_widgets.HTMLText** | **PyQt5.QtWidgets.QTextBrowser** 
 --- | --- | ---
 ![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/images_firefox.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/images_tk.png)|![](https://github.com/paolo-gurisatti/tk_html_widgets/blob/master/examples/img/images_pyqt5.png)
 
