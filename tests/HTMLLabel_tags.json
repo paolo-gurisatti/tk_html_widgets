@@ -432,7 +432,7 @@
     },
     "15.0": {
         "bind": {
-            "link": "https://google.com"
+            "link": "https://www.python.org"
         },
         "config": {
             "background": "SystemButtonFace",

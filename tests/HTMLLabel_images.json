@@ -43,7 +43,7 @@
     },
     "11.0": {
         "bind": {
-            "link": "https://www.google.com"
+            "link": "https://www.python.org"
         },
         "config": {
             "background": "SystemButtonFace",
@@ -85,7 +85,7 @@
     },
     "12.0": {
         "bind": {
-            "link": "https://www.google.com"
+            "link": "https://www.python.org"
         },
         "config": {
             "background": "SystemButtonFace",
