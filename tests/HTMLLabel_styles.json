@@ -1,0 +1,674 @@
+{
+    "1.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.8",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.0"
+    },
+    "1.16": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.29",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": false,
+            "weight": "bold"
+        },
+        "start_index": "1.16"
+    },
+    "1.29": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.37",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "italic",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.29"
+    },
+    "1.37": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.46",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "italic",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.37"
+    },
+    "1.46": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.54",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.46"
+    },
+    "1.54": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.65",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.54"
+    },
+    "1.65": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.76",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "1.65"
+    },
+    "1.76": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "2.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "1.76"
+    },
+    "1.8": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "1.16",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "1.8"
+    },
+    "10.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "11.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "10.0"
+    },
+    "11.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "12.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "11.0"
+    },
+    "12.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "13.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "12.0"
+    },
+    "13.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "14.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "13.0"
+    },
+    "14.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "15.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "14.0"
+    },
+    "15.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "16.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "15.0"
+    },
+    "16.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "17.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "16.0"
+    },
+    "17.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "18.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "17.0"
+    },
+    "18.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "19.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "18.0"
+    },
+    "19.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "20.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "19.0"
+    },
+    "2.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "3.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "2.0"
+    },
+    "20.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "red",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "20.4",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "20.0"
+    },
+    "20.10": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "yellow",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "20.17",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "20.10"
+    },
+    "20.17": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "red",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "20.27",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "20.17"
+    },
+    "20.27": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "end",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "20.27"
+    },
+    "20.4": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "green",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "20.10",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "20.4"
+    },
+    "3.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "4.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "3.0"
+    },
+    "4.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "5.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "4.0"
+    },
+    "5.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "6.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "5.0"
+    },
+    "6.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "7.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "normal"
+        },
+        "start_index": "6.0"
+    },
+    "7.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "8.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "7.0"
+    },
+    "8.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "blue",
+            "foreground": "yellow",
+            "justify": "center",
+            "tabs": []
+        },
+        "end_index": "9.0",
+        "font": {
+            "family": "impact",
+            "overstrike": false,
+            "size": 13,
+            "slant": "roman",
+            "underline": true,
+            "weight": "bold"
+        },
+        "start_index": "8.0"
+    },
+    "9.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "10.0",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "9.0"
+    }
+}
