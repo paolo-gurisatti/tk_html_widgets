@@ -1,0 +1,23 @@
+{
+    "1.0": {
+        "bind": {
+            "link": null
+        },
+        "config": {
+            "background": "SystemButtonFace",
+            "foreground": "black",
+            "justify": "left",
+            "tabs": []
+        },
+        "end_index": "end",
+        "font": {
+            "family": "Segoe ui",
+            "overstrike": false,
+            "size": 9,
+            "slant": "roman",
+            "underline": false,
+            "weight": "normal"
+        },
+        "start_index": "1.0"
+    }
+}
