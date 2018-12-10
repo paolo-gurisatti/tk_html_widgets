@@ -684,5 +684,6 @@ class HTMLTextParser(HTMLParser):
         self.images = []
         self.list_tags = []
         self.strip = strip
+        self._w_tags_add()
         self.feed(html)
         self._w_tags_apply_all()
