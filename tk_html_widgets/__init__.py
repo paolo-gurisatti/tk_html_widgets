@@ -5,11 +5,12 @@ import sys
 import tkinter as tk
 from tkinter import scrolledtext
 from tkinter import font
-from tk_html_widgets.html_parser import *
+from tk_html_widgets import html_parser
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
-class ScrolledText(tk.Text):
+class _ScrolledText(tk.Text):
+    #----------------------------------------------------------------------------------------------
     def __init__(self, master=None, **kw):
         self.frame = tk.Frame(master)
 
@@ -32,7 +33,7 @@ class ScrolledText(tk.Text):
     def __str__(self):
         return str(self.frame)
 
-class HTMLScrolledText(ScrolledText):
+class HTMLScrolledText(_ScrolledText):
     #----------------------------------------------------------------------------------------------
     """
     HTML scrolled text widget
@@ -41,7 +42,7 @@ class HTMLScrolledText(ScrolledText):
         #------------------------------------------------------------------------------------------
         super().__init__(*args, **kwargs)
         self._w_init(kwargs)
-        self.html_parser = HTMLTextParser(self)
+        self.html_parser = html_parser.HTMLTextParser(self)
 
 
     def _w_init(self, kwargs):
@@ -54,16 +55,19 @@ class HTMLScrolledText(ScrolledText):
             else:
                 self.config(background='white')
 
+
     def fit_height(self):
         #------------------------------------------------------------------------------------------
         """
         Fit widget height to wrapped lines
         """
-        self.vbar.pack(side=tk.RIGHT, fill=tk.Y)
-        self.vbar['command'] = self.yview
-        self.config(height=4)
-        self.master.update()
-        self.config(height=1+4*1/self.yview()[1])
+        for h in range(1, 4):
+            self.config(height=h)
+            self.master.update()
+            if self.yview()[1] >= 1:
+                break
+        else:
+            self.config(height=0.5+3/self.yview()[1])
 
 
     def set_html(self, html, strip=True):
@@ -92,7 +96,7 @@ class HTMLText(HTMLScrolledText):
     def fit_height(self):
         #------------------------------------------------------------------------------------------
         super().fit_height()
-        self.master.update()
+        #self.master.update()
         self.vbar.pack_forget()
 
 class HTMLLabel(HTMLText):
@@ -111,5 +115,8 @@ class HTMLLabel(HTMLText):
                 
         if not 'borderwidth' in kwargs.keys():
             self.config(borderwidth=0)
+
+        if not 'padx' in kwargs.keys():
+            self.config(padx=3)
         
 
