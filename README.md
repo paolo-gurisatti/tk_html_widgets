@@ -40,7 +40,7 @@ All widget classes inherits from the tkinter.Text() base class.
  
 ### Methods:
 #### def set_html(self, html, strip=True):
-> **Description:** Sets the text in html text. <br>
+> **Description:** Sets the text in HTML format. <br>
 > **Args:**
 >  - *html*: input HTML string
 >  - *strip*: if True (default) handles spaces in HTML-like style 
@@ -99,4 +99,4 @@ See details and templates HTML code in the [examples folder](https://github.com/
 
 
 ## Acknowledgements
-Thanks to my mentor and valued collegue Gianluca: *``a light in the darkness of code``*.
+Thanks to my mentor, valued collegue and friend [JayZar21](https://github.com/JayZar21).
