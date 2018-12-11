@@ -7,7 +7,7 @@ from tkinter import scrolledtext
 from tkinter import font
 from tk_html_widgets import html_parser
 
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 
 class _ScrolledText(tk.Text):
     #----------------------------------------------------------------------------------------------
@@ -38,11 +38,13 @@ class HTMLScrolledText(_ScrolledText):
     """
     HTML scrolled text widget
     """
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args, html=None, **kwargs):
         #------------------------------------------------------------------------------------------
         super().__init__(*args, **kwargs)
         self._w_init(kwargs)
         self.html_parser = html_parser.HTMLTextParser(self)
+        if isinstance(html, str):
+            self.set_html(html)
 
 
     def _w_init(self, kwargs):
@@ -76,11 +78,12 @@ class HTMLScrolledText(_ScrolledText):
         Set HTML widget text. If strip is enabled (default) it ignores spaces and new lines.
 
         """
+        prev_state = self.cget('state')
         self.config(state=tk.NORMAL)
         self.delete('1.0', tk.END)
         self.tag_delete(self.tag_names)
         self.html_parser.w_set_html(html, strip=strip)
-        self.config(state=tk.DISABLED)
+        self.config(state=prev_state)
 
 
 class HTMLText(HTMLScrolledText):
@@ -119,4 +122,8 @@ class HTMLLabel(HTMLText):
         if not 'padx' in kwargs.keys():
             self.config(padx=3)
         
+    def set_html(self, *args, **kwargs):
+        #------------------------------------------------------------------------------------------
+        super().set_html(*args, **kwargs)
+        self.config(state=tk.DISABLED)
 
