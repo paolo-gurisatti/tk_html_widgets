@@ -246,10 +246,9 @@ class ListTag():
 class HTMLTextParser(HTMLParser):
     #----------------------------------------------------------------------------------------------
 
-    def __init__(self, w):
+    def __init__(self):
         #------------------------------------------------------------------------------------------
         super().__init__()
-        self._w = w
         # set list tabs
         self.cached_images = {}
 
@@ -674,8 +673,9 @@ class HTMLTextParser(HTMLParser):
                 self._w.tag_bind(key, "<Enter>", self.hlink_slots[-1].enter)
         
 
-    def w_set_html(self, html, strip):
+    def w_set_html(self, w, html, strip):
         #------------------------------------------------------------------------------------------
+        self._w = w
         self.stack = deepcopy(DEFAULT_STACK)
         self.stack[WCfg.KEY][WCfg.BACKGROUND].append(("__DEFAULT__", self._w.cget("background")))
         self.stack[Fnt.KEY][Fnt.FAMILY].append(("__DEFAULT__", self.DEFAULT_TEXT_FONT_FAMILY))
@@ -687,3 +687,4 @@ class HTMLTextParser(HTMLParser):
         self._w_tags_add()
         self.feed(html)
         self._w_tags_apply_all()
+        del self._w

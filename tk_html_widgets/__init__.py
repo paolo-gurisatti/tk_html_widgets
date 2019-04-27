@@ -7,7 +7,7 @@ from tkinter import scrolledtext
 from tkinter import font
 from tk_html_widgets import html_parser
 
-VERSION = "0.3.0"
+VERSION = "0.4.0"
 
 class _ScrolledText(tk.Text):
     #----------------------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ class HTMLScrolledText(_ScrolledText):
         #------------------------------------------------------------------------------------------
         super().__init__(*args, **kwargs)
         self._w_init(kwargs)
-        self.html_parser = html_parser.HTMLTextParser(self)
+        self.html_parser = html_parser.HTMLTextParser()
         if isinstance(html, str):
             self.set_html(html)
 
@@ -82,7 +82,7 @@ class HTMLScrolledText(_ScrolledText):
         self.config(state=tk.NORMAL)
         self.delete('1.0', tk.END)
         self.tag_delete(self.tag_names)
-        self.html_parser.w_set_html(html, strip=strip)
+        self.html_parser.w_set_html(self, html, strip=strip)
         self.config(state=prev_state)
 
 
